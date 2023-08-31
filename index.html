@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>Financial System</title>
+</head>
+<body>
+    <section class="est">
+        <div class="entradas">
+            Entradas:
+            <br>
+            <span class="visor-e"></span>
+        </div>
+        <div class="saidas">
+            Saídas: 
+            <br>
+            <span class="visor-s"></span>
+        </div>
+        <div class="total">
+            Total: 
+            <br>
+            <span class="visor-t"></span>
+        </div>
+    </section>
+    <div class="form">
+        <label>
+            Descrição
+            <input type="text" maxlength="18" class="desc">
+        </label>
+        <label>
+            Valor
+            <input type="number" class="value">
+        </label>
+        <label>
+            Tipo
+            <select class="type">
+                <option value="entrada" selected>Entrada</option>
+                <option value="saida">Saída</option>
+            </select>
+        </label>
+        <button class="include">Incluir</button>
+    </div>
+    <span class="itens">Itens</span>
+    <div class="title">
+        <span>Descrição</span>
+        <span>Valor</span>
+        <span>Tipo</span>
+    </div>
+    <main class="main">
+    </main>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
