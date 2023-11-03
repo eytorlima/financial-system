@@ -11,5 +11,5 @@ Tecnologias utilizadas 👩🏿‍💻:
 </ul> 
 <br>
 
-🔗 <a href="https://eytorlima.github.io/financial-system/" target="_blank">Veja aqui</a> o resultado do projeto! 🔗
+🔗 <a href="https://eytorsousa.github.io/financial-system/" target="_blank">Veja aqui</a> o resultado do projeto! 🔗
 <br>
